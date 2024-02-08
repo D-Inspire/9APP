@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .mobile {
+    @media screen and (max-width: 500) {
+      display: none;
+    }
+  }
+} */
+.nav {
+  @apply font-600 font-[Roboto] text-[16px] leading-[15px] text-[#0B0B0B] py-[20px] mobile:p-0 hover:border-[1px] hover:border-y-[rgba(128,128,128,0.3)] pl-[40px] hover:text-[#F16F3B] hover:text-[18px] hover:bg-[rgba(128,128,128,0.1)] mobile:(hover:text-[16px]) sm:hover:text-[16px];
+}

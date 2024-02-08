@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9App</title>
+    <link href="./output.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex justify-between w-full items-center px-[20px] mobile:flex-row gap-[20px] mt-[10px]"
+      >
+        <img
+          src="./images/icons/nineAppLogo.svg"
+          alt="9Apple logo"
+          class="w-[46px] mobile:w-[66px] h-[56px] mobile:h-[75px] mb-[20px]"
+        />
+
+        <span
+          class="material-symbols-outlined cursor-pointer block md:hidden"
+          id="menuBtn"
+        >
+          menu
+        </span>
+
+        <div
+          class="border-t-[2px] border-black mobile:border-none absolute bottom-[0] left-0 h-[calc(100%-80px)] w-full mobile:w-fit mobile:static flex mobile:flex flex-col gap-0 mobile:gap-[15px] mobile:flex-row mobile:items-center transition-[all_2s] translate-y-[200px]"
+          id="menuBar"
+        >
+          <a
+            class="font-600 font-[Roboto] text-[16px] leading-[15px] text-[#0B0B0B] py-[20px] mobile:p-0 hover:border-[1px] hover:border-y-[rgba(128,128,128,0.3)] pl-[40px] hover:text-[#F16F3B] hover:text-[18px] hover:bg-[rgba(128,128,128,0.1)] mobile:(hover:text-[16px]) sm:hover:text-[16px]"
+            >Home</a
+          >
+          <a
+            class="font-600 font-[Roboto] text-[16px] leading-[15px] text-[#0B0B0B] py-[20px] mobile:p-0 hover:border-[1px] hover:border-[rgba(128,128,128,0.3)] pl-[40px] hover:text-[#F16F3B] hover:text-[18px] hover:bg-[rgba(128,128,128,0.1)]"
+            >Contact us</a
+          >
+          <a
+            class="font-600 font-[Roboto] text-[16px] leading-[15px] text-[#0B0B0B] py-[20px] mobile:p-0 hover:border-[1px] hover:border-[rgba(128,128,128,0.3)] pl-[40px] hover:text-[#F16F3B] hover:text-[18px] hover:bg-[rgba(128,128,128,0.1)]"
+            >FAQ</a
+          >
+          <a
+            class="font-600 font-[Roboto] text-[16px] leading-[15px] text-[#0B0B0B] py-[20px] mobile:p-0 hover:border-[1px] hover:border-[rgba(128,128,128,0.3)] pl-[40px] hover:text-[#F16F3B] hover:text-[18px] hover:bg-[rgba(128,128,128,0.1)]"
+            >About</a
+          >
+          <a
+            href="#"
+            class="w-[119px] h-[32px] rounded-[5px] font-600 font-[Roboto] text-[16px] leading-[15px] bg-[#000] text-white flex items-center justify-center ml-[20px]"
+            >Download</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <!-- <script src="./funcFolder/navBar.js"></script> -->
+  </body>
+</html>
